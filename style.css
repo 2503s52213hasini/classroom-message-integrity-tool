@@ -1,0 +1,29 @@
+/* Custom CSS styling additions and animations */
+
+/* Custom scrollbar for trace output */
+#xorTraceBox::-webkit-scrollbar {
+  width: 6px;
+}
+
+#xorTraceBox::-webkit-scrollbar-track {
+  background: #020617;
+  border-radius: 4px;
+}
+
+#xorTraceBox::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+
+#xorTraceBox::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Subtle bit hover scale effect */
+.bit-box {
+  transition: all 0.15s ease-in-out;
+}
+
+.bit-box:hover {
+  transform: translateY(-2px);
+}
